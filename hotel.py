@@ -60,7 +60,7 @@ class HotelManagementSystem:
             guest_name = self.rooms[room]["guest_name"]
             check_in_time = self.rooms[room]["check_in"]
             stay_duration = (datetime.now() - check_in_time).days
-            bill_amount = stay_duration * 100  # Assuming $100 per day
+            bill_amount = stay_duration * 200  # Assuming $200 per day
             messagebox.showinfo("Bill", f"Guest: {guest_name}\nStay Duration: {stay_duration} days\nTotal Bill: ${bill_amount}")
 
 if __name__ == "__main__":
