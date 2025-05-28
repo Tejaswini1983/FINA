@@ -130,8 +130,8 @@ class GalleryManager:
 def print_menu():
     print("\n=== Gallery Menu ===")
     print("1. Add Image")
-    print("2. Delete Image")
-    print("3. List Images")
+    print("2. Delete the Image")
+    print("3. Lists of Images")
     print("4. Save Metadata")
     print("5. Load Metadata")
     print("0. Exit")
