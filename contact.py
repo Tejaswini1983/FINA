@@ -121,9 +121,9 @@ if __name__ == "__main__":
             holder_name="Alice Smith"
         )
         account = BankAccount(details)
-        account.deposit(500.00)
-        account.withdraw(120.00)
-        account.deposit(250.00)
+        account.deposit(5000.00)
+        account.withdraw(1200.00)
+        account.deposit(2500.00)
         account.print_statement()
 
         decrypted = details.get_decrypted_info()
