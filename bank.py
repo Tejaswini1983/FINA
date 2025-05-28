@@ -1,4 +1,4 @@
-import os
+iimport os
 import re
 import logging
 from cryptography.fernet import Fernet
@@ -19,8 +19,8 @@ class EncryptionService:
     def decrypt(self, value: str) -> str:
         return self.fernet.decrypt(value.encode()).decode()
 
-# --- Validators ---
-class BankValidator:
+# ---inValidators ---
+class Bank inValidator:
     @staticmethod
     def validate_account_number(account_number: str) -> bool:
         return bool(re.fullmatch(r"\d{9,18}", account_number))
