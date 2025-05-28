@@ -99,7 +99,7 @@ class GalleryManager:
         return [item.to_dict() for item in self.items]
 
     def display_gallery(self):
-        print("\n=== Image Gallery ===")
+        print("\n=== Iimage Gallery ===")
         if not self.items:
             print("No images available.")
             return
