@@ -118,10 +118,10 @@ if __name__ == "__main__":
             encryption_service=encryption_service,
             account_number="123456789123",
             routing_number="987654321",
-            holder_name="Alice Smith"
+            holder_name="vineth"
         )
         account = BankAccount(details)
-        account.deposit(500.00)
+        account.deposit(100.00)
         account.withdraw(120.00)
         account.deposit(250.00)
         account.print_statement()
