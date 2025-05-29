@@ -68,7 +68,7 @@ class BankAccount:
 
     def deposit(self, amount: float):
         if amount <= 0:
-            raise ValueError("Deposit amount must be positive.")
+            raise ValueError("Deposit of amount must be positive.")
         self.balance += amount
         self.transactions.append((datetime.now(), f"Deposited ${amount:.2f}"))
         logger.info("Deposited $%.2f to %s", amount, self.bank_details._holder_name)
