@@ -101,7 +101,7 @@ class GalleryManager:
     def display_gallery(self):
         print("\n=== Image Gallery ===")
         if not self.items:
-            print("No images available.")
+            print("No images are available.")
             return
         for item in self.items:
             size = get_file_size(os.path.join(GALLERY_DIR, item.filename))
