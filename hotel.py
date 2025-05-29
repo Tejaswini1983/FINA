@@ -35,7 +35,7 @@ class HotelManagementSystem:
         room = self.room_var.get()
         guest_name = self.guest_name_entry.get()
         if not guest_name:
-            messagebox.showwarning("Input Error", "Please enter guest name.")
+            messagebox.showwarning("Input Error", "Please enter the guest name.")
             return
         if self.rooms[room]:
             messagebox.showwarning("Room Occupied", f"{room} is already occupied.")
